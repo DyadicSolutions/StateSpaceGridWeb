@@ -664,6 +664,40 @@ input:checked + .slider:before {
     max-width: 500px;
     max-height: 500px;
 }
+.citation-container {
+    max-width: 1440px;
+    margin: 0 auto 2rem auto;
+    padding: 1.5rem 2rem 0 2rem;
+    width: 100%;
+    text-align: center;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.citation-title {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.citation-text {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.5;
+    background: var(--bg-card);
+    padding: 0.75rem 1.25rem;
+    border-radius: var(--radius-sm);
+    display: inline-block;
+    border: 1px solid var(--border-card);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    box-shadow: var(--shadow-soft);
+    color: var(--text-primary);
+}
 
 footer {
     text-align: center;

@@ -50,6 +50,12 @@ document.addEventListener("DOMContentLoaded", () => {
     setupDemoButton();
     // Auto-run tests on load to show engine health
     triggerTestRunner();
+
+    // Set citation URL dynamically
+    const citationUrlEl = document.getElementById("citation-url");
+    if (citationUrlEl) {
+        citationUrlEl.innerText = window.location.href.split('?')[0].split('#')[0];
+    }
 });
 
 // Tab Switcher
